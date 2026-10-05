@@ -22,9 +22,20 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
   
   if (serviceVariants) {
     serviceData = serviceVariants[id] || serviceVariants['HVAC & AC-installation'];
+    
+    const primaryVariant = serviceVariants['HVAC & AC-installation'];
+    if (serviceData) {
+      serviceData = { ...serviceData };
+      if (!Array.isArray(serviceData.sidebar?.servicesList) || !serviceData.sidebar?.helpBox) {
+        serviceData.sidebar = primaryVariant?.sidebar;
+      }
+      if (!serviceData.images) {
+        serviceData.images = primaryVariant?.images;
+      }
+    }
   }
 
-  if (!sectionData || !commonData || !serviceData) return <div className="text-black p-10">Loading Data...</div>;
+  if (!sectionData || !commonData || !serviceData) return <div className="text-black p-10">{commonData?.globalUI?.loadingText || 'Loading Data...'}</div>;
 
   return (
     <main className="bg-white min-h-screen flex flex-col">

@@ -193,6 +193,20 @@ export interface FooterData {
   servicesLinks: Array<{id: string, label: string, url: string}>;
   contactInfo: {address: string, phone: string, email: string};
   instagram?: string[];
+  satisfactionTitle?: string;
+  satisfactionDesc?: string;
+  quickLinksTitle?: string;
+  getInTouchTitle?: string;
+  callNowText?: string;
+  emailReplyText?: string;
+  servicesTitle?: string;
+  stayConnectedTitle?: string;
+  stayConnectedDesc?: string;
+  newsletterTitle?: string;
+  newsletterDesc?: string;
+  badge1?: string;
+  badge2?: string;
+  badge3?: string;
 }
 
 export interface BreadcrumbData {
@@ -203,6 +217,7 @@ export interface BreadcrumbData {
 
 export interface HVACTemplateData {
   common?: {
+    globalUI?: Record<string, string>;
     Footer?: FooterData;
     aboutBreadcrumb?: BreadcrumbData;
     servicesBreadcrumb?: BreadcrumbData;
@@ -211,6 +226,7 @@ export interface HVACTemplateData {
     blogDetailBreadcrumb?: BreadcrumbData;
     contactBreadcrumb?: BreadcrumbData;
     enquiryBreadcrumb?: BreadcrumbData;
+    galleryBreadcrumb?: BreadcrumbData;
   };
   categories?: {
     HVAC?: {

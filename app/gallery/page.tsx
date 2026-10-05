@@ -14,21 +14,14 @@ export default function GalleryPage() {
   const sectionData = templateData?.categories?.HVAC?.sections;
   const commonData = templateData?.common;
 
-  if (!sectionData || !commonData) return <div className="text-black p-10">Loading Data...</div>;
+  if (!sectionData || !commonData) return <div className="text-black p-10">{commonData?.globalUI?.loadingText || 'Loading Data...'}</div>;
 
   return (
     <main className="bg-white min-h-screen flex flex-col">
       <TopBar data={sectionData.TopBar?.variants?.HVACTopBar1} logoData={sectionData.Header?.variants?.HVACHeader1} />
       <Header data={sectionData.Header?.variants?.HVACHeader1} />
       
-      <Breadcrumb data={{
-        title: 'Gallery',
-        paths: [
-          { label: 'Home', url: '/' },
-          { label: 'Gallery' }
-        ],
-        bgImage: commonData.servicesBreadcrumb?.bgImage || '/about/about-bg1.jpg'
-      }} />
+      <Breadcrumb data={commonData.galleryBreadcrumb} />
       
       <GallerySection data={sectionData.Gallery?.variants?.HVACGallery1} />
       

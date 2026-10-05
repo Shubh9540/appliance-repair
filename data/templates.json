@@ -101,7 +101,21 @@
         "/service/4.jpg",
         "/service/5.jpg",
         "/service/6.jpg"
-      ]
+      ],
+      "satisfactionTitle": "100% Customer Satisfaction",
+      "satisfactionDesc": "Trusted by 10,000+ Happy Customers",
+      "quickLinksTitle": "Quick Links",
+      "getInTouchTitle": "Get In Touch",
+      "callNowText": "Call Now 24/7",
+      "emailReplyText": "We reply within 1 hour",
+      "servicesTitle": "Our Services",
+      "stayConnectedTitle": "Stay Connected",
+      "stayConnectedDesc": "Get the latest updates, offers and home maintenance tips.",
+      "newsletterTitle": "Expert Tips & Guides",
+      "newsletterDesc": "Save energy, improve efficiency and extend your appliance life.",
+      "badge1": "Skilled\\nTechnicians",
+      "badge2": "Affordable\\nPricing",
+      "badge3": "24/7\\nSupport"
     },
     "aboutBreadcrumb": {
       "title": "About Us",
@@ -190,6 +204,26 @@
           "label": "Enquiry Now"
         }
       ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Gallery",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Gallery"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.jpg"
+    },
+    "globalUI": {
+      "loadingText": "Loading Data...",
+      "notFoundText": "Page Not Found",
+      "blogNotFoundText": "Blog Not Found",
+      "readMoreText": "Read More",
+      "chooseServiceText": "Choose Service"
     }
   },
   "categories": {

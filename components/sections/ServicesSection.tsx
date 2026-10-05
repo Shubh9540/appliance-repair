@@ -3,7 +3,7 @@ import { ServicesData } from '@/types/templates.types';
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 
-export const ServicesSection = ({ data, hideButton = false }: { data?: ServicesData, hideButton?: boolean }) => {
+export const ServicesSection = ({ data, hideButton = false, globalUI }: { data?: ServicesData, hideButton?: boolean, globalUI?: Record<string, string> }) => {
   if (!data) return null;
 
   return (
@@ -49,7 +49,7 @@ export const ServicesSection = ({ data, hideButton = false }: { data?: ServicesD
                   {service.description}
                 </p>
                 <div className="flex items-center gap-2 w-fit group/link mt-auto">
-                  <span className="text-[var(--color-accent)] font-bold text-[15px]">Read More</span>
+                  <span className="text-[var(--color-accent)] font-bold text-[15px]">{globalUI?.readMoreText || 'Read More'}</span>
                   <FaArrowRight className="text-[var(--color-accent)] text-[13px] group-hover:translate-x-1 transition-transform duration-300" />
                 </div>
               </div>

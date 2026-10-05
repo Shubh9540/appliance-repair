@@ -68,13 +68,13 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                   <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
                 </div>
                 <div>
-                  <h5 className="font-bold text-white text-[14px] leading-tight whitespace-nowrap">100% Customer Satisfaction</h5>
-                  <p className="text-gray-400 text-[12px] mt-1 leading-tight">Trusted by 10,000+ Happy Customers</p>
+                  <h5 className="font-bold text-white text-[14px] leading-tight whitespace-nowrap">{data.satisfactionTitle}</h5>
+                  <p className="text-gray-400 text-[12px] mt-1 leading-tight">{data.satisfactionDesc}</p>
                 </div>
               </div>
             </div>
 
-            {/* Column 2: Quick Links */}
+            {/* Column 2: {data.quickLinksTitle} */}
             <div className="lg:border-l lg:border-[#1a3869] lg:pl-6">
               <h3 className="text-[18px] font-bold text-white mb-6 flex flex-col">
                 Quick Links
@@ -91,7 +91,7 @@ export const Footer = ({ data }: { data?: FooterData }) => {
               </ul>
             </div>
 
-            {/* Column 3: Get In Touch */}
+            {/* Column 3: {data.getInTouchTitle} */}
             <div className="lg:border-l lg:border-[#1a3869] lg:pl-6">
               <h3 className="text-[18px] font-bold text-white mb-6 flex flex-col">
                 Get In Touch
@@ -104,7 +104,7 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                   </div>
                   <div>
                     <h5 className="font-bold text-white text-[13px]">{data.contactInfo.phone}</h5>
-                    <p className="text-gray-400 text-[12px]">Call Now 24/7</p>
+                    <p className="text-gray-400 text-[12px]">{data.callNowText}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -113,7 +113,7 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                   </div>
                   <div>
                     <h5 className="font-bold text-white text-[13px]">{data.contactInfo.email}</h5>
-                    <p className="text-gray-400 text-[12px]">We reply within 1 hour</p>
+                    <p className="text-gray-400 text-[12px]">{data.emailReplyText}</p>
                   </div>
                 </li>
                 <li className="flex items-center gap-4">
@@ -136,7 +136,7 @@ export const Footer = ({ data }: { data?: FooterData }) => {
               </ul>
             </div>
 
-            {/* Column 4: Our Services */}
+            {/* Column 4: {data.servicesTitle} */}
             <div className="lg:border-l lg:border-[#1a3869] lg:pl-6">
               <h3 className="text-[18px] font-bold text-white mb-6 flex flex-col">
                 Our Services
@@ -163,14 +163,14 @@ export const Footer = ({ data }: { data?: FooterData }) => {
               </ul>
             </div>
 
-            {/* Column 5: Stay Connected */}
+            {/* Column 5: {data.stayConnectedTitle} */}
             <div className="lg:border-l lg:border-[#1a3869] lg:pl-6">
               <h3 className="text-[18px] font-bold text-white mb-6 flex flex-col">
                 Stay Connected
                 <span className="w-8 h-[3px] bg-[var(--color-accent)] mt-3"></span>
               </h3>
               <p className="text-gray-300 text-[13px] leading-relaxed mb-6">
-                Get the latest updates, offers and home maintenance tips.
+                {data.stayConnectedDesc}
               </p>
               
               {/* Subscription Box */}
@@ -179,8 +179,8 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                   <FaEnvelope />
                 </div>
                 <div className="flex-grow">
-                  <h5 className="font-bold text-white text-[13px]">Expert Tips & Guides</h5>
-                  <p className="text-gray-400 text-[11px] leading-snug mt-0.5">Save energy, improve efficiency and extend your appliance life.</p>
+                  <h5 className="font-bold text-white text-[13px]">{data.newsletterTitle}</h5>
+                  <p className="text-gray-400 text-[11px] leading-snug mt-0.5">{data.newsletterDesc}</p>
                 </div>
                 <div className="w-6 h-6 rounded-full bg-[var(--color-accent)] flex items-center justify-center text-white shrink-0 group-hover:translate-x-1 transition-transform">
                   <FaChevronRight className="text-[10px]" />
@@ -193,19 +193,19 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                   <div className="text-[var(--color-accent)] text-2xl mb-1">
                     <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
                   </div>
-                  <p className="text-gray-400 text-[11px] leading-tight">Skilled<br/>Technicians</p>
+                  <p className="text-gray-400 text-[11px] leading-tight">{data.badge1?.split('\\n').map((line, i) => <React.Fragment key={i}>{line}{i === 0 && <br/>}</React.Fragment>)}</p>
                 </div>
                 <div className="flex flex-col items-center text-center border-l border-[#1a3869]">
                   <div className="text-[var(--color-accent)] text-2xl mb-1">
                     <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
                   </div>
-                  <p className="text-gray-400 text-[11px] leading-tight">Affordable<br/>Pricing</p>
+                  <p className="text-gray-400 text-[11px] leading-tight">{data.badge2?.split('\\n').map((line, i) => <React.Fragment key={i}>{line}{i === 0 && <br/>}</React.Fragment>)}</p>
                 </div>
                 <div className="flex flex-col items-center text-center border-l border-[#1a3869]">
                   <div className="text-[var(--color-accent)] text-2xl mb-1">
                     <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
                   </div>
-                  <p className="text-gray-400 text-[11px] leading-tight">24/7<br/>Support</p>
+                  <p className="text-gray-400 text-[11px] leading-tight">{data.badge3?.split('\\n').map((line, i) => <React.Fragment key={i}>{line}{i === 0 && <br/>}</React.Fragment>)}</p>
                 </div>
               </div>
 

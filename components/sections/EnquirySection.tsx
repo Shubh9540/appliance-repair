@@ -4,7 +4,7 @@ import React from 'react';
 import { EnquiryData } from '@/types/templates.types';
 import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 
-export const EnquirySection = ({ data }: { data?: EnquiryData }) => {
+export const EnquirySection = ({ data, globalUI }: { data?: EnquiryData, globalUI?: Record<string, string> }) => {
   if (!data) return null;
 
   return (
@@ -74,7 +74,7 @@ export const EnquirySection = ({ data }: { data?: EnquiryData }) => {
                   className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[var(--color-accent)] transition-colors"
                 />
                 <select className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-500 focus:outline-none focus:border-[var(--color-accent)] transition-colors appearance-none">
-                  <option value="">Choose Service</option>
+                  <option value="">{globalUI?.chooseServiceText || 'Choose Service'}</option>
                   {data.form.servicesList?.map((service, idx) => (
                     <option key={idx} value={service}>{service}</option>
                   ))}

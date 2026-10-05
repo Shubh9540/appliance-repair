@@ -18,7 +18,7 @@ export default function Home() {
   const sectionData = templateData?.categories?.HVAC?.sections;
   const commonData = templateData?.common;
 
-  if (!sectionData || !commonData) return <div className="text-black p-10">Loading Data...</div>;
+  if (!sectionData || !commonData) return <div className="text-black p-10">{commonData?.globalUI?.loadingText || 'Loading Data...'}</div>;
 
   return (
     <main className="bg-[var(--color-bg-main)] min-h-screen flex flex-col">
@@ -26,7 +26,7 @@ export default function Home() {
       <Header data={sectionData.Header?.variants?.HVACHeader1} />
       <HeroSection data={sectionData.Hero?.variants?.HVACHero1} />
       <AboutUsSection data={sectionData.AboutUs?.variants?.HVACAboutUs1} />
-      <ServicesSection data={sectionData.Services?.variants?.HVACServices1} />
+      <ServicesSection data={sectionData.Services?.variants?.HVACServices1} globalUI={commonData?.globalUI} />
       <AchievementSection data={sectionData.Achievement?.variants?.HVACAchievement1} />
       <BlogsSection data={sectionData.Blogs?.variants?.HVACBlogs1} />
       <TestimonialSection data={sectionData.Testimonials?.variants?.HVACTestimonials1} />

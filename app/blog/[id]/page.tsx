@@ -20,7 +20,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ id:
   const blogsData = sectionData?.Blogs?.variants?.HVACBlogs1;
   const blog = blogsData?.blogs?.find(b => b.id === id);
 
-  if (!sectionData || !commonData || !blog) return <div className="text-black p-10">Blog Not Found</div>;
+  if (!sectionData || !commonData || !blog) return <div className="text-black p-10">{commonData?.globalUI?.blogNotFoundText || 'Blog Not Found'}</div>;
 
   return (
     <main className="bg-white min-h-screen flex flex-col">

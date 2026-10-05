@@ -14,7 +14,7 @@ export default function BlogPage() {
   const sectionData = templateData?.categories?.HVAC?.sections;
   const commonData = templateData?.common;
 
-  if (!sectionData || !commonData) return <div className="text-black p-10">Loading Data...</div>;
+  if (!sectionData || !commonData) return <div className="text-black p-10">{commonData?.globalUI?.loadingText || 'Loading Data...'}</div>;
 
   return (
     <main className="bg-white min-h-screen flex flex-col">
