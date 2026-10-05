@@ -9,6 +9,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 export const Header = ({ data }: { data?: HeaderData }) => {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [openDropdowns, setOpenDropdowns] = useState<Record<string, boolean>>({});
 
   if (!data) return null;
 
@@ -121,11 +122,13 @@ export const Header = ({ data }: { data?: HeaderData }) => {
               <div key={link.id} className="flex flex-col border-b border-gray-50">
                 {hasSubLinks ? (
                   <div 
-                    className={`px-2 py-3 text-[15px] font-bold tracking-wide cursor-default ${
+                    onClick={() => setOpenDropdowns(prev => ({ ...prev, [link.id]: !prev[link.id] }))}
+                    className={`flex items-center justify-between px-2 py-3 text-[15px] font-bold tracking-wide cursor-pointer ${
                       pathname === link.url || link.subLinks!.some(sub => pathname === sub.url) ? 'text-[var(--color-accent)]' : 'text-[var(--color-primary)]'
                     }`}
                   >
                     {link.label}
+                    <FaChevronDown className={`text-[12px] transition-transform duration-300 ${openDropdowns[link.id] ? 'rotate-180' : ''}`} />
                   </div>
                 ) : (
                   <Link 
@@ -140,7 +143,7 @@ export const Header = ({ data }: { data?: HeaderData }) => {
                 )}
                 
                 {hasSubLinks && (
-                  <div className="flex flex-col pl-6 pb-2">
+                  <div className={`flex flex-col pl-6 overflow-hidden transition-all duration-300 ${openDropdowns[link.id] ? 'max-h-[500px] pb-2' : 'max-h-0'}`}>
                     {link.subLinks!.map(sub => (
                       <Link
                         key={sub.id}

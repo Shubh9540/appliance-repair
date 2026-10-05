@@ -16,6 +16,8 @@ export const HeroSection = ({ data }: { data?: HeroData }) => {
         aria-hidden="true"
         className="absolute inset-0 z-0 w-full h-full object-cover object-center"
       />
+      {/* Mobile Overlay to make text visible */}
+      <div className="absolute inset-0 z-[1] bg-white/80 lg:hidden" />
 
       {/* Content Overlay */}
       <div className="relative z-10 mx-auto w-full max-w-[1250px] px-4 py-10 sm:px-8 lg:py-24">

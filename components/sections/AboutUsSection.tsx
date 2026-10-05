@@ -22,16 +22,16 @@ export const AboutUsSection = ({ data, hideButton = false }: { data?: AboutUsDat
       <div className="max-w-[1250px] mx-auto px-4 lg:px-8 relative z-10 flex flex-col lg:flex-row items-start gap-16 lg:gap-24">
 
         {/* Left Side: Image */}
-        <div className="w-full lg:w-[38%] relative mt-8 lg:mt-0 flex-shrink-0">
-          <div className="relative w-full aspect-[4/4.5] max-w-[450px] mx-auto mt-6 ml-6">
+        <div className="w-full lg:w-[38%] relative mt-10 lg:mt-0 flex-shrink-0 flex justify-center px-2 sm:px-0">
+          <div className="relative w-[calc(100%-2rem)] sm:w-full aspect-[4/4.5] max-w-[400px] lg:max-w-[450px] mt-4 lg:mt-6 lg:ml-6">
             {/* Top Left Light Blue Shape */}
-            <div className="absolute -top-6 -left-6 w-40 h-40 sm:w-56 sm:h-56 bg-[#70b5f9] rounded-[24px] z-0" />
+            <div className="absolute -top-4 -left-4 sm:-top-6 sm:-left-6 w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56 bg-[#70b5f9] rounded-[20px] sm:rounded-[24px] z-0" />
             
             {/* Bottom Right Bright Blue Shape */}
-            <div className="absolute -bottom-8 -right-8 w-40 h-40 sm:w-56 sm:h-56 bg-[#007bff] rounded-[24px] z-0 rounded-bl-[50px]" />
+            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56 bg-[#007bff] rounded-[20px] sm:rounded-[24px] z-0 rounded-bl-[40px] sm:rounded-bl-[50px]" />
 
             {/* Main Image */}
-            <div className="relative z-10 w-full h-full rounded-[24px] overflow-hidden border-[8px] sm:border-[10px] border-white shadow-md bg-gray-100">
+            <div className="relative z-10 w-full h-full rounded-[20px] sm:rounded-[24px] overflow-hidden border-[6px] sm:border-[10px] border-white shadow-md bg-gray-100">
               <img
                 src={data.imageMain}
                 alt={data.title1}

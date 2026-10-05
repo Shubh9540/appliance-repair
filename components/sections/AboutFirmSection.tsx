@@ -59,8 +59,8 @@ export const AboutFirmSection = ({ data, hideButton = false }: { data?: AboutUsD
         </div>
 
         {/* Right Side: Image */}
-        <div className="w-full lg:w-[50%] relative mt-10 lg:mt-0">
-          <div className="relative w-full aspect-[4/3] rounded-[24px] overflow-hidden">
+        <div className="w-full lg:w-[50%] relative mt-10 lg:mt-0 px-2 sm:px-4 lg:px-0">
+          <div className="relative w-full aspect-[4/3] rounded-[20px] sm:rounded-[24px] overflow-hidden">
             <img
               src={data.imageMain}
               alt="About Us"
@@ -70,11 +70,11 @@ export const AboutFirmSection = ({ data, hideButton = false }: { data?: AboutUsD
 
           {/* Floating Badge */}
           {(data.yearsOfService || data.yearsText) && (
-            <div className="absolute bottom-6 -left-8 bg-white rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.08)] p-6 px-8 flex flex-col justify-center border border-gray-50 z-20">
-              <h3 className="text-[#051838] font-extrabold text-[42px] leading-none mb-1">
+            <div className="absolute bottom-4 -left-2 sm:bottom-6 sm:-left-6 lg:-left-8 bg-white rounded-xl sm:rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.08)] p-4 sm:p-6 px-6 sm:px-8 flex flex-col justify-center border border-gray-50 z-20">
+              <h3 className="text-[#051838] font-extrabold text-[32px] sm:text-[42px] leading-none mb-1">
                 {data.yearsOfService}
               </h3>
-              <p className="text-gray-500 font-medium text-[15px]">
+              <p className="text-gray-500 font-medium text-[13px] sm:text-[15px]">
                 {data.yearsText}
               </p>
             </div>

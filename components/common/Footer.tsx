@@ -45,7 +45,9 @@ export const Footer = ({ data }: { data?: FooterData }) => {
             
             {/* Column 1: Brand & Social */}
             <div className="lg:pr-4 flex flex-col">
-              <img src="/main logo/logo2.webp" alt={data.logoAlt} className="h-16 w-auto object-contain object-left mb-6" />
+              <Link href="/">
+                <img src="/main logo/logo2.webp" alt={data.logoAlt} className="h-16 w-auto object-contain object-left mb-6" />
+              </Link>
               <p className="text-gray-300 text-[13px] leading-relaxed mb-6">
                 {data.description}
               </p>
