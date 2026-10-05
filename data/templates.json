@@ -2625,6 +2625,75 @@
               ]
             }
           }
+        },
+        "Contact": {
+          "variants": {
+            "HVACContact1": {
+              "subtitle": "CONTACT US",
+              "title1": "Get In",
+              "title2": "Touch",
+              "description": "We are here to help you with all your HVAC & AC needs. Feel free to contact us.",
+              "form": {
+                "title": "Send Us A",
+                "description": "Fill out the form and we will get back to you shortly.",
+                "buttonText": "Send Message"
+              },
+              "contactInfo": {
+                "title": "Contact Information",
+                "description": "Reach out to us through any of the following methods.",
+                "phoneTitle": "Call Us",
+                "phone": "+1 000000000",
+                "phoneDesc": "24/7 Support Available",
+                "emailTitle": "Email Us",
+                "email": "info@xyz.com",
+                "emailDesc": "We reply within 24 hours",
+                "addressTitle": "Location",
+                "address": "123 Main St, New York, NY, USA"
+              },
+              "technicianImage": "/service/worker.webp",
+              "map": {
+                "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.213192451996!2d-73.9877!3d40.7588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzMxLjciTiA3M8KwNTknMTUuNyJX!5e0!3m2!1sen!2sus!4v1",
+                "boxTitle": "Our Office",
+                "boxAddress": "123 Main St, New York, NY, USA",
+                "buttonText": "Get Directions"
+              }
+            }
+          }
+        },
+        "Enquiry": {
+          "variants": {
+            "HVACEnquiry1": {
+              "subtitle": "ENQUIRY NOW",
+              "title1": "Request A",
+              "title2": "Quote",
+              "description": "Fill out the form below and our team will get back to you with a competitive quote for your HVAC needs.",
+              "features": [
+                {
+                  "id": "eq-f1",
+                  "title": "Fast Response",
+                  "description": "We respond to all enquiries within 24 hours"
+                },
+                {
+                  "id": "eq-f2",
+                  "title": "Competitive Pricing",
+                  "description": "Best rates for top-quality HVAC services"
+                }
+              ],
+              "form": {
+                "title1": "Fill The",
+                "title2": "Form",
+                "description": "Provide your details and requirements.",
+                "buttonText": "Submit Enquiry ->",
+                "servicesList": [
+                  "AC Installation",
+                  "AC Repair",
+                  "Heating System",
+                  "Maintenance",
+                  "Duct Cleaning"
+                ]
+              }
+            }
+          }
         }
       },
       "templateComponents": {
