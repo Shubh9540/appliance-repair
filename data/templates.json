@@ -1,0 +1,2833 @@
+{
+  "common": {
+    "Footer": {
+      "logoAlt": "AviCare Logo",
+      "brandTitle": "AviCare",
+      "copyrightText": "© 2026 AviCare. All Rights Reserved.Powered by Lestow",
+      "description": "At AviCare, we provide reliable and professional HVAC & AC solutions for homes and businesses. From small repairs to complete installations, our team is committed to quality service and customer satisfaction.",
+      "hoursTitle": "Working Hours",
+      "hoursDays": "Mon - Sat:",
+      "hours": "9:00 AM - 7:00 PM\nSunday: Closed",
+      "socialLinks": [
+        {
+          "id": "fs1",
+          "icon": "FaFacebookF",
+          "url": "https://www.facebook.com"
+        },
+        {
+          "id": "fs2",
+          "icon": "FaInstagram",
+          "url": "https://www.instagram.com"
+        },
+        {
+          "id": "fs3",
+          "icon": "FaLinkedinIn",
+          "url": "https://www.linkedin.com"
+        },
+        {
+          "id": "fs4",
+          "icon": "FaYoutube",
+          "url": "https://www.youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "ql1",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "ql2",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "ql3",
+          "label": "Our Services",
+          "url": "/services"
+        },
+        {
+          "id": "ql4",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "ql5",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "servicesLinks": [
+        {
+          "id": "sl1",
+          "label": "HVAC Installation",
+          "url": "/services/HVAC & AC-installation"
+        },
+        {
+          "id": "sl2",
+          "label": "Leak Detection",
+          "url": "/services/leak-detection"
+        },
+        {
+          "id": "sl3",
+          "label": "Pipe & Drain Cleaning",
+          "url": "/services/pipe-drain-cleaning"
+        },
+        {
+          "id": "sl4",
+          "label": "General HVAC Repair",
+          "url": "/services/general-repair"
+        },
+        {
+          "id": "sl5",
+          "label": "Water Heater Services",
+          "url": "/services/water-heater"
+        },
+        {
+          "id": "sl6",
+          "label": "Bathroom Fixtures",
+          "url": "/services/bathroom-fixture"
+        }
+      ],
+      "contactInfo": {
+        "address": "123 Main St, New York, NY, USA",
+        "phone": "+1 000000000",
+        "email": "info@xyz.com"
+      },
+      "instagram": [
+        "/service/1.jpg",
+        "/service/2.jpg",
+        "/service/3.jpg",
+        "/service/4.jpg",
+        "/service/5.jpg",
+        "/service/6.jpg"
+      ]
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "About Us"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Our Services",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Services"
+        }
+      ]
+    },
+    "serviceDetailBreadcrumb": {
+      "title": "Service Detail",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Services",
+          "url": "/services"
+        },
+        {
+          "label": "Service Detail"
+        }
+      ]
+    },
+    "blogBreadcrumb": {
+      "title": "Blog",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Blog"
+        }
+      ]
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blog Detail",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Blog Detail"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "enquiryBreadcrumb": {
+      "title": "Enquiry Now",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Enquiry Now"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "HVAC": {
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "HVACTopBar1": {
+              "phoneLabel": "Call Us :",
+              "phoneValue": "+1 000000000",
+              "emailValue": "info@xyz.com",
+              "followLabel": "Follow Us On :",
+              "socialLinks": [
+                {
+                  "id": "tb-fb",
+                  "icon": "FaFacebookF",
+                  "url": "https://www.facebook.com"
+                },
+                {
+                  "id": "tb-ig",
+                  "icon": "FaXTwitter",
+                  "url": "https://x.com"
+                },
+                {
+                  "id": "tb-in",
+                  "icon": "FaInstagram",
+                  "url": "https://www.instagram.com"
+                },
+                {
+                  "id": "tb-yt",
+                  "icon": "FaLinkedinIn",
+                  "url": "https://www.linkedin.com"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "HVACHeader1": {
+              "logo": "/main logo/logo2.webp",
+              "logoAlt": "AviCare HVAC",
+              "contactInfoLeft": [
+                {
+                  "id": "ci-phone",
+                  "icon": "FiPhoneCall",
+                  "label": "Call for help:",
+                  "value": "+1 000000000"
+                },
+                {
+                  "id": "ci-email",
+                  "icon": "FiMail",
+                  "label": "Mail to us:",
+                  "value": "info@xyz.com"
+                }
+              ],
+              "contactInfoRight": [
+                {
+                  "id": "ci-location",
+                  "icon": "FiMapPin",
+                  "label": "Our Location:",
+                  "value": "123 Main St, New York, NY, USA"
+                }
+              ],
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Our Services",
+                  "url": "/services",
+                  "subLinks": [
+                    {
+                      "id": "nl-services-main",
+                      "label": "Services",
+                      "url": "/services"
+                    },
+                    {
+                      "id": "nl-services-detail",
+                      "label": "Service Detail",
+                      "url": "/services/HVAC & AC-installation"
+                    }
+                  ]
+                },
+                {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-blogs",
+                  "label": "Our Blogs",
+                  "url": "/blog",
+                  "subLinks": [
+                    {
+                      "id": "nl-blogs-main",
+                      "label": "Blogs",
+                      "url": "/blog"
+                    },
+                    {
+                      "id": "nl-blogs-detail",
+                      "label": "Blog Detail",
+                      "url": "/blog/b1"
+                    }
+                  ]
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact",
+                  "url": "/contact"
+                }
+              ],
+              "contactButton": {
+                "text": "Call Now",
+                "url": "tel:+1000000000",
+                "icon": "FiPhoneCall"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "HVACHero1": {
+              "subtitle": "STAY COMFORTABLE ALL YEAR ROUND",
+              "title1": "Expert Heating & AC",
+              "title2": "Repair Services",
+              "title3": "",
+              "description": "Fast, reliable and professional service for your home comfort. We keep your space perfectly cool in summer and warm in winter.",
+              "image1": "/banner/banner.webp",
+              "image2": "/banner/hero-circle1.png",
+              "image3": "/banner/hero-circle2.png",
+              "button": {
+                "text": "Contact Us",
+                "url": "/contact"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "HVACAboutUs1": {
+              "subtitle": "ABOUT US",
+              "title1": "About",
+              "title2": "Us",
+              "description": "At Avicare, we are committed to providing reliable, efficient and affordable heating and AC repair services for homes and businesses. With a team of skilled technicians and a customer-first approach, we ensure your comfort all year round.",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FaCog",
+                  "title": "30 Years of Experience",
+                  "description": "With decades of industry experience, we have built a strong reputation for quality service and customer trust."
+                },
+                {
+                  "id": "f2",
+                  "icon": "FaBullseye",
+                  "title": "Our Mission",
+                  "description": "To deliver high-quality heating and AC solutions with honesty, reliability and complete customer satisfaction."
+                },
+                {
+                  "id": "f3",
+                  "icon": "FaLeaf",
+                  "title": "Our Vision",
+                  "description": "To be the most trusted and preferred HVAC service provider, known for excellence and innovation."
+                },
+                {
+                  "id": "f4",
+                  "icon": "FaSnowflake",
+                  "title": "What We Do",
+                  "description": "We provide installation, repair, maintenance and servicing for all types of heating and cooling systems."
+                }
+              ],
+              "button": {
+                "text": "Contact Us",
+                "url": "/contact"
+              },
+              "imageMain": "/about/about.webp"
+            }
+          }
+        },
+        "AboutFirm": {
+          "variants": {
+            "HVACAboutFirm1": {
+              "subtitle": "ABOUT US",
+              "subtitle2": "Heating & Air Conditioning",
+              "title1": "Family",
+              "title2": "Business",
+              "description": "AirCool Conditioning & Heating specializes in all HVAC-related services. We offer heating and air conditioning installations as well as all types of repairs. We also offer preventative plans like inspections for the Spring and Winter as well as yearly service agreements that include all the top brands.",
+              "features": [
+                {
+                  "id": "f1",
+                  "title": "Licensed installs and repairs for every home"
+                },
+                {
+                  "id": "f2",
+                  "title": "Spring and winter inspections on a set schedule"
+                },
+                {
+                  "id": "f3",
+                  "title": "Yearly service agreements for all major brands"
+                }
+              ],
+              "phone": "+1 000000000",
+              "imageMain": "/about/about1.webp",
+              "yearsOfService": "25+",
+              "yearsText": "Years of service"
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "HVACServices1": {
+              "subtitle": "OUR SERVICES",
+              "title1": "Expert",
+              "title2": "HVAC & AC",
+              "description": "We provide complete heating and air conditioning solutions for homes and businesses.",
+              "button": {
+                "text": "View More ->",
+                "url": "/services"
+              },
+              "services": [
+                {
+                  "id": "s1",
+                  "title": "AC Installation",
+                  "description": "Professional AC installation for homes and offices with best quality products and expert support.",
+                  "image": "/service/1.webp",
+                  "icon": "",
+                  "url": "/services/ac-installation"
+                },
+                {
+                  "id": "s2",
+                  "title": "AC Repair",
+                  "description": "Fast and reliable AC repair services to fix all types of cooling problems quickly and efficiently.",
+                  "image": "/service/2.webp",
+                  "icon": "",
+                  "url": "/services/ac-repair"
+                },
+                {
+                  "id": "s3",
+                  "title": "AC Cleaning",
+                  "description": "Deep cleaning services to improve air quality, performance and cooling efficiency.",
+                  "image": "/service/3.webp",
+                  "icon": "",
+                  "url": "/services/ac-cleaning"
+                },
+                {
+                  "id": "s4",
+                  "title": "AC Maintenance",
+                  "description": "Regular maintenance to keep your AC system running smoothly and extend its lifespan.",
+                  "image": "/service/4.webp",
+                  "icon": "",
+                  "url": "/services/ac-maintenance"
+                },
+                {
+                  "id": "s5",
+                  "title": "Heating Services",
+                  "description": "Complete heating solutions including installation, repair and maintenance for all heating systems.",
+                  "image": "/service/5.webp",
+                  "icon": "",
+                  "url": "/services/heating-services"
+                },
+                {
+                  "id": "s6",
+                  "title": "HVAC Solutions",
+                  "description": "End-to-end HVAC solutions for better airflow, energy efficiency and year-round comfort.",
+                  "image": "/service/6.webp",
+                  "icon": "",
+                  "url": "/services/hvac-solutions"
+                }
+              ],
+              "title3": "Services"
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "HVAC & AC-installation": {
+              "id": "HVAC & AC-installation",
+              "title1": "Heater",
+              "title2": "Installation",
+              "images": {
+                "main": "/service/service detail.webp ",
+                "small1": "/service/service small1.webp",
+                "small2": "/service/service small2.webp"
+              },
+              "descriptions": [
+                "Stay warm and comfortable with our professional heater installation services. We install all types of heating systems including electric heaters, gas heaters, wall-mounted units, central heating systems and more. Our experienced technicians ensure safe, efficient and long-lasting installation for your home or office.",
+                "We assess your space, recommend the right heating solution, and install it with precision and care. Whether you need a new heater for a single room or a complete heating system for your property, we provide reliable and affordable installation services tailored to your needs."
+              ],
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FaCog",
+                  "title": "Expert Installation",
+                  "description": "By certified technicians"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FaShieldAlt",
+                  "title": "Safe & Secure Setup",
+                  "description": "Following industry standards"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FaBolt",
+                  "title": "Energy Efficient",
+                  "description": "Optimized for better performance"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FaWallet",
+                  "title": "Affordable Pricing",
+                  "description": "Best value for your money"
+                }
+              ],
+              "typesTitle1": "Types of Heaters",
+              "typesTitle2": "We Install",
+              "types": [
+                {
+                  "id": "t1",
+                  "image": "/service/service small1.webp",
+                  "title": "Room Heaters",
+                  "description": "Portable and wall-mounted room heaters."
+                },
+                {
+                  "id": "t2",
+                  "image": "/service/service small2.webp",
+                  "title": "Wall Mounted Heaters",
+                  "description": "Space-saving and efficient wall heaters."
+                },
+                {
+                  "id": "t3",
+                  "image": "/service/service small2.webp",
+                  "title": "Oil Filled Heaters",
+                  "description": "Reliable and long-lasting oil filled heaters."
+                },
+                {
+                  "id": "t4",
+                  "image": "/service/service small1.webp",
+                  "title": "Infrared Heaters",
+                  "description": "Quick and effective infrared heating solutions."
+                }
+              ],
+              "sidebar": {
+                "servicesTitle": "Our Services",
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Heater Installation",
+                    "image": "/service/1.webp",
+                    "url": "/services/HVAC & AC-installation"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Heater Repair",
+                    "image": "/service/2.webp",
+                    "url": "/services/general-repair"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Heater Maintenance",
+                    "image": "/service/3.webp",
+                    "url": "/services/leak-detection"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Heater Cleaning",
+                    "image": "/service/4.webp",
+                    "url": "/services/pipe-drain-cleaning"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Heating System Solutions",
+                    "image": "/service/5.webp",
+                    "url": "/services/water-heater"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Annual Inspections",
+                    "image": "/service/6.webp",
+                    "url": "/services/bathroom-fixture"
+                  }
+                ],
+                "helpBox": {
+                  "title": "Need Help with Heater Installation?",
+                  "description": "Get expert advice and professional installation service today.",
+                  "buttonText": "Call Us Now",
+                  "phone": "+1 3490 2838 00",
+                  "image": "/service/worker.webp"
+                },
+                "whyChooseUs": {
+                  "title": "Why Choose Us?",
+                  "list": [
+                    "Certified & Experienced Technicians",
+                    "High-Quality Equipment Usage",
+                    "On-Time Installation",
+                    "Affordable & Transparent Pricing",
+                    "High-Quality Equipment Usage",
+                    "On-Time Installation",
+                    "Affordable & Transparent Pricing"
+                  ]
+                }
+              }
+            },
+            "leak-detection": {
+              "id": "leak-detection",
+              "subtitle": "Our Service",
+              "title1": "Leak",
+              "title2": "Detection Services",
+              "description": "Find and fix hidden leaks before they become bigger problems. We use advanced tools to detect leaks quickly and accurately.",
+              "imageMain": "/service/2.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Find and fix hidden leaks before they become bigger problems. We use advanced tools to detect leaks quickly and accurately.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your HVAC & AC system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/2.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your HVAC & AC requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local HVAC & AC codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom HVAC",
+                    "Emergency HVAC"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "HVAC Installation",
+                      "url": "/services/HVAC & AC-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General HVAC Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "pipe-drain-cleaning": {
+              "id": "pipe-drain-cleaning",
+              "subtitle": "Our Service",
+              "title1": "Pipe",
+              "title2": "& Drain Cleaning",
+              "description": "Keep your pipes clear and your systems running smoothly with our professional drain cleaning services.",
+              "imageMain": "/service/3.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Keep your pipes clear and your systems running smoothly with our professional drain cleaning services.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your HVAC & AC system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/3.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your HVAC & AC requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local HVAC & AC codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom HVAC",
+                    "Emergency HVAC"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "HVAC Installation",
+                      "url": "/services/HVAC & AC-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General HVAC Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "general-repair": {
+              "id": "general-repair",
+              "subtitle": "Our Service",
+              "title1": "General",
+              "title2": "HVAC Repair",
+              "description": "From dripping faucets to faulty pipes, we handle all types of HVAC & AC repairs with reliable and long-lasting solutions.",
+              "imageMain": "/service/4.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "From dripping faucets to faulty pipes, we handle all types of HVAC & AC repairs with reliable and long-lasting solutions.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your HVAC & AC system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/4.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your HVAC & AC requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local HVAC & AC codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom HVAC",
+                    "Emergency HVAC"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "HVAC Installation",
+                      "url": "/services/HVAC & AC-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General HVAC Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "water-heater": {
+              "id": "water-heater",
+              "subtitle": "Our Service",
+              "title1": "Water",
+              "title2": "Heater Services",
+              "description": "Installation, repair and maintenance of all types of water heaters to ensure a continuous supply of hot water.",
+              "imageMain": "/service/5.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Installation, repair and maintenance of all types of water heaters to ensure a continuous supply of hot water.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your HVAC & AC system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/5.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your HVAC & AC requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local HVAC & AC codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom HVAC",
+                    "Emergency HVAC"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "HVAC Installation",
+                      "url": "/services/HVAC & AC-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General HVAC Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "bathroom-fixture": {
+              "id": "bathroom-fixture",
+              "subtitle": "Our Service",
+              "title1": "Bathroom",
+              "title2": "Fixture Installation",
+              "description": "We install and repair sinks, faucets, toilets, showers and other bathroom fixtures with expertise and care.",
+              "imageMain": "/service/6.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "We install and repair sinks, faucets, toilets, showers and other bathroom fixtures with expertise and care.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your HVAC & AC system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/6.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your HVAC & AC requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local HVAC & AC codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom HVAC",
+                    "Emergency HVAC"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "HVAC Installation",
+                      "url": "/services/HVAC & AC-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General HVAC Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "HVACTestimonials1": {
+              "subtitle": "TESTIMONIALS",
+              "title1": "What Our",
+              "title2": "Clients Say",
+              "description": "Your satisfaction is our biggest reward. Here's what our happy customers have to say about our heating & AC repair services.",
+              "bgImage": "/other/achiev.webp",
+              "testimonials": [
+                {
+                  "id": "t1",
+                  "name": "Priya Sharma",
+                  "location": "Noida, UP",
+                  "quote": "I am really impressed with the service from Avicare. The technician arrived on time, fixed my AC issue quickly and explained everything clearly. Very professional and friendly team. Highly recommended!",
+                  "rating": 5,
+                  "avatar": "/team/1.jpg"
+                },
+                {
+                  "id": "t2",
+                  "name": "Rahul Verma",
+                  "location": "Gurgaon, HR",
+                  "quote": "Excellent service! The team was very punctual and solved my AC problem in no time. The pricing was fair and the technician was knowledgeable. I will definitely use Avicare again.",
+                  "rating": 5,
+                  "avatar": "/team/2.jpg"
+                },
+                {
+                  "id": "t3",
+                  "name": "Neha Kapoor",
+                  "location": "Delhi",
+                  "quote": "Great experience! My AC was not working, and they came the same day. The technician was polite, skilled and got it working perfectly. Very reliable and trustworthy service.",
+                  "rating": 5,
+                  "avatar": "/team/3.jpg"
+                },
+                {
+                  "id": "t4",
+                  "name": "Amit Kumar",
+                  "location": "Faridabad",
+                  "quote": "Very quick response and top-notch service. My AC cooling was completely gone, but the Avicare team identified the issue instantly and fixed it within an hour.",
+                  "rating": 5,
+                  "avatar": "/team/4.jpg"
+                },
+                {
+                  "id": "t5",
+                  "name": "Sonia Gupta",
+                  "location": "Ghaziabad",
+                  "quote": "I booked an AC servicing and they did a very thorough job. Everything was cleaned properly and the AC runs like new now. Will recommend them to my family.",
+                  "rating": 5,
+                  "avatar": "/team/1.jpg"
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "HVACGallery1": {
+              "subtitle": "OUR GALLERY",
+              "title1": "Recent",
+              "title2": "Projects",
+              "description": "A look at installations, repairs, and maintenance from homes and offices.",
+              "images": [
+                {
+                  "id": "g1",
+                  "image": "/gallery/g1.webp",
+                  "alt": "AC Installation",
+                  "title": "AC Installation"
+                },
+                {
+                  "id": "g2",
+                  "image": "/gallery/g2.webp",
+                  "alt": "Coil Cleaning",
+                  "title": "Coil Cleaning"
+                },
+                {
+                  "id": "g3",
+                  "image": "/gallery/g3.webp",
+                  "alt": "Heating Repair",
+                  "title": "Heating Repair"
+                },
+                {
+                  "id": "g4",
+                  "image": "/gallery/g4.webp",
+                  "alt": "Outdoor Unit",
+                  "title": "Outdoor Unit"
+                },
+                {
+                  "id": "g5",
+                  "image": "/gallery/g5.webp",
+                  "alt": "Office HVAC",
+                  "title": "Office HVAC"
+                },
+                {
+                  "id": "g6",
+                  "image": "/gallery/g6.webp",
+                  "alt": "Duct Work",
+                  "title": "Duct Work"
+                },
+                {
+                  "id": "g7",
+                  "image": "/gallery/g7.webp",
+                  "alt": "Filter Change",
+                  "title": "Filter Change"
+                },
+                {
+                  "id": "g8",
+                  "image": "/gallery/g8.webp",
+                  "alt": "Thermostat",
+                  "title": "Thermostat"
+                }
+              ]
+            }
+          }
+        },
+        "Cta": {
+          "variants": {
+            "HVACCta1": {
+              "subtitle": "FREE CONSULTATION",
+              "title1": "Ready To Get Reliable",
+              "title2": "HVAC Services?",
+              "description": "Whether it's a small repair or a major HVAC & AC issue, our expert team is here to help. Get in touch today for a free consultation.",
+              "button1": {
+                "text": "Get A Quote",
+                "url": "/enquiry"
+              },
+              "button2": {
+                "text": "Contact Us",
+                "url": "/contact"
+              },
+              "image": "/other/cta.jpg"
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "HVACBlogs1": {
+              "subtitle": "LATEST TIPS & INSIGHTS",
+              "title1": "Our Latest",
+              "title2": "Blog Posts",
+              "description": "Stay informed with helpful tips, expert advice and the latest updates on AC repair, maintenance and home comfort.",
+              "button": {
+                "text": "View All Blogs ->",
+                "url": "/blog"
+              },
+              "blogs": [
+                {
+                  "id": "b1",
+                  "image": "/blog/b1.webp",
+                  "date": "April 26, 2025",
+                  "category": "Buying Guide",
+                  "title": "How to Choose the Right AC for Your Home",
+                  "description": "From cooling capacity to energy efficiency, find out what to consider before buying the perfect AC for your home.",
+                  "url": "/blog/b1",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog/b2"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog/b3"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog/b2"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog/b3"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home's Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ],
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": "b2",
+                  "image": "/blog/b2.webp",
+                  "date": "April 20, 2025",
+                  "category": "Maintenance",
+                  "title": "5 Simple AC Maintenance Tips for Better Performance",
+                  "description": "Regular maintenance can improve cooling efficiency, reduce electricity bills and extend the life of your AC unit.",
+                  "url": "/blog/b2",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "b3",
+                  "image": "/blog/b3.webp",
+                  "date": "April 15, 2025",
+                  "category": "Repair",
+                  "title": "Common AC Problems and How to Fix Them",
+                  "description": "Is your AC not cooling properly? Learn about the most common issues and how professional repair can solve them quickly.",
+                  "url": "/blog/b3",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "b4",
+                  "image": "/blog/b1.webp",
+                  "date": "April 26, 2025",
+                  "category": "Buying Guide",
+                  "title": "How to Choose the Right AC for Your Home",
+                  "description": "From cooling capacity to energy efficiency, find out what to consider before buying the perfect AC for your home.",
+                  "url": "/blog/b4",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "b5",
+                  "image": "/blog/b2.webp",
+                  "date": "April 20, 2025",
+                  "category": "Maintenance",
+                  "title": "5 Simple AC Maintenance Tips for Better Performance",
+                  "description": "Regular maintenance can improve cooling efficiency, reduce electricity bills and extend the life of your AC unit.",
+                  "url": "/blog/b5",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "b6",
+                  "image": "/blog/b3.webp",
+                  "date": "April 15, 2025",
+                  "category": "Repair",
+                  "title": "Common AC Problems and How to Fix Them",
+                  "description": "Is your AC not cooling properly? Learn about the most common issues and how professional repair can solve them quickly.",
+                  "url": "/blog/b6",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "b7",
+                  "image": "/blog/b1.webp",
+                  "date": "April 26, 2025",
+                  "category": "Buying Guide",
+                  "title": "How to Choose the Right AC for Your Home",
+                  "description": "From cooling capacity to energy efficiency, find out what to consider before buying the perfect AC for your home.",
+                  "url": "/blog/b7",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "b8",
+                  "image": "/blog/b2.webp",
+                  "date": "April 20, 2025",
+                  "category": "Maintenance",
+                  "title": "5 Simple AC Maintenance Tips for Better Performance",
+                  "description": "Regular maintenance can improve cooling efficiency, reduce electricity bills and extend the life of your AC unit.",
+                  "url": "/blog/b8",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "b9",
+                  "image": "/blog/b3.webp",
+                  "date": "April 15, 2025",
+                  "category": "Repair",
+                  "title": "Common AC Problems and How to Fix Them",
+                  "description": "Is your AC not cooling properly? Learn about the most common issues and how professional repair can solve them quickly.",
+                  "url": "/blog/b9",
+                  "detail": {
+                    "author": "Abhishek",
+                    "commentsCount": 21,
+                    "title1": "Took a whole lotta: How Regular AC Maintenance",
+                    "title2": "Saves You Money",
+                    "intro": "Keeping your air conditioner in good condition is not just about comfort, it's also a smart way to save money in the long run. Regular AC maintenance helps improve performance, reduce energy bills and prevent costly breakdowns.",
+                    "features": [
+                      {
+                        "id": "f1",
+                        "icon": "FaBolt",
+                        "title": "1. Improves Energy Efficiency",
+                        "description": "A well-maintained AC unit works more efficiently and consumes less electricity. Cleaning filters, checking refrigerant levels and ensuring proper airflow can significantly reduce your energy bills."
+                      },
+                      {
+                        "id": "f2",
+                        "icon": "FaWrench",
+                        "title": "2. Prevents Costly Repairs",
+                        "description": "Regular maintenance helps identify small issues before they turn into major problems. This can save you from expensive repairs or even a complete AC replacement."
+                      },
+                      {
+                        "id": "f3",
+                        "icon": "FaShieldAlt",
+                        "title": "3. Extends the Lifespan of Your AC",
+                        "description": "With proper care and servicing, your AC can last for many more years. Regular check-ups keep all components in good condition and ensure smooth operation."
+                      }
+                    ],
+                    "quote": "Regular AC maintenance is a small investment that brings big savings. It keeps your home cooler, your energy bills lower and your AC running for years to come.",
+                    "conclusion": "Whether you use your AC at home or in the office, scheduling regular maintenance is the best way to ensure reliable performance and long-term savings. Don't wait for a breakdown - keep your AC in top shape with professional servicing.",
+                    "bottomImage": "/service/1.webp",
+                    "sidebar": {
+                      "categoriesTitle": "Categories",
+                      "categories": [
+                        {
+                          "id": "c1",
+                          "name": "Indoor Air Quality",
+                          "count": 8,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c2",
+                          "name": "Heating Services",
+                          "count": 12,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c3",
+                          "name": "Windowing Units",
+                          "count": 6,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c4",
+                          "name": "AC Installation",
+                          "count": 14,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c5",
+                          "name": "Maintenance & Repairing",
+                          "count": 10,
+                          "url": "/blog"
+                        },
+                        {
+                          "id": "c6",
+                          "name": "Annual Inspections",
+                          "count": 7,
+                          "url": "/blog"
+                        }
+                      ],
+                      "recentPostsTitle": "Recent Posts",
+                      "recentPostsLinkText": "View All ->",
+                      "recentPostsUrl": "/blog",
+                      "adBanner": {
+                        "title": "Need Professional AC Service?",
+                        "description": "Get expert installation, repair and maintenance services.",
+                        "buttonText": "Get a Free Quote ->",
+                        "buttonUrl": "/contact",
+                        "image": "/blog/worker.webp"
+                      },
+                      "recentPosts": [
+                        {
+                          "id": "rp1",
+                          "title": "How to Improve Your Home Air Quality",
+                          "image": "/blog/b1.webp",
+                          "date": "January 11, 2024",
+                          "url": "/blog/b1"
+                        },
+                        {
+                          "id": "rp2",
+                          "title": "Top Benefits of Regular AC Servicing",
+                          "image": "/blog/b2.webp",
+                          "date": "January 12, 2024",
+                          "url": "/blog/b2"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "sidebarCta": {
+                "title1": "Need Professional",
+                "title2": "HVAC Help?",
+                "description": "Our experienced team is ready to assist you with all your HVAC & AC needs. Get in touch today for a quick and reliable solution.",
+                "buttonText": "Enquire Now ->",
+                "buttonUrl": "/enquiry"
+              }
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "HVACContact1": {
+              "subtitle": "CONTACT US",
+              "title1": "Get in Touch",
+              "title2": "with us",
+              "description": "Have a question, need a service or want a free quote? Our team is here to help you with all your heating and AC repair needs. Reach out to us today!",
+              "form": {
+                "title": "Send Us a Message",
+                "description": "Fill out the form below and we'll get back to you shortly.",
+                "buttonText": "SUBMIT"
+              },
+              "contactInfo": {
+                "title": "Contact Information",
+                "description": "You can also reach us directly through any of the following channels. We're always happy to assist you.",
+                "phoneTitle": "Call Us",
+                "phone": "+1 000000000",
+                "phoneDesc": "Call Now 24/7",
+                "emailTitle": "Email Us",
+                "email": "info@xyz.com",
+                "emailDesc": "We reply within 1 hour",
+                "addressTitle": "Visit Our Office",
+                "address": "123 Main St, New York, NY, USA"
+              },
+              "technicianImage": "/service/worker.webp",
+              "map": {
+                "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2528000654!2d-74.1444874457788!3d40.69766374865766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+                "boxTitle": "Our Location",
+                "boxAddress": "123 Main St, New York, NY, USA",
+                "buttonText": "Get Directions"
+              }
+            }
+          }
+        },
+        "enquiry": {
+          "variants": {
+            "HVACEnquiry1": {
+              "subtitle": "GET A QUOTE",
+              "title1": "Get a Quote for",
+              "title2": "Our Cleaning Services",
+              "description": "Tell us about your cleaning requirements and we'll provide you with a customized quote. It's quick, easy and completely free.",
+              "features": [
+                {
+                  "title": "Tailored to Your Needs",
+                  "description": "Get a quote based on your specific cleaning requirements."
+                },
+                {
+                  "title": "Quick & Easy",
+                  "description": "Fill out the form in just a few minutes."
+                },
+                {
+                  "title": "No Obligation",
+                  "description": "Receive a personalized quote with no commitment."
+                }
+              ],
+              "form": {
+                "title1": "Request a",
+                "title2": "Quote",
+                "description": "Fill out the form below and our team will get back to you shortly with a customized quote.",
+                "buttonText": "Submit Request ->",
+                "servicesList": [
+                  "Residential Cleaning",
+                  "Commercial Cleaning",
+                  "Post-Construction Cleaning",
+                  "Window Cleaning",
+                  "Carpet Cleaning",
+                  "Other"
+                ]
+              }
+            }
+          }
+        },
+        "Achievement": {
+          "variants": {
+            "HVACAchievement1": {
+              "subtitle": "OUR ACHIEVEMENTS",
+              "title1": "Numbers That Build",
+              "title2": "Our Trust",
+              "title3": "",
+              "description": "We take pride in delivering reliable, professional and affordable AC repair services. Here's a look at our journey so far.",
+              "bgImage": "/other/achiev.webp",
+              "achievements": [
+                {
+                  "id": "a1",
+                  "icon": "FaUsers",
+                  "value": "2900+",
+                  "label": "Satisfied Clients"
+                },
+                {
+                  "id": "a2",
+                  "icon": "FaAward",
+                  "value": "57",
+                  "label": "Awards Won"
+                },
+                {
+                  "id": "a3",
+                  "icon": "FaUserTie",
+                  "value": "445",
+                  "label": "Professionals"
+                },
+                {
+                  "id": "a4",
+                  "icon": "FaHome",
+                  "value": "150",
+                  "label": "Branches"
+                },
+                {
+                  "id": "a5",
+                  "icon": "MdAir",
+                  "value": "7238",
+                  "label": "AC Installations"
+                }
+              ]
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "HVACTeam1": {
+              "subtitle": "MEET THE TEAM",
+              "title1": "Our Service",
+              "title2": "Professionals",
+              "description": "Skilled technicians committed to keeping your home comfortable.",
+              "members": [
+                {
+                  "id": "m1",
+                  "name": "Daniel Brooks",
+                  "role": "HVAC Specialist",
+                  "image": "/team/1.jpg",
+                  "phone": "#",
+                  "linkedin": "#"
+                },
+                {
+                  "id": "m2",
+                  "name": "Marcus Reed",
+                  "role": "Appliance Technician",
+                  "image": "/team/2.jpg",
+                  "phone": "#",
+                  "linkedin": "#"
+                },
+                {
+                  "id": "m3",
+                  "name": "Ethan Cole",
+                  "role": "Senior Service Engineer",
+                  "image": "/team/3.jpg",
+                  "phone": "#",
+                  "linkedin": "#"
+                },
+                {
+                  "id": "m4",
+                  "name": "James Carter",
+                  "role": "Maintenance Expert",
+                  "image": "/team/4.jpg",
+                  "phone": "#",
+                  "linkedin": "#"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "HVACFaq1": {
+              "subtitle": "FAQ",
+              "title1": "Frequently Asked",
+              "title2": "Questions",
+              "description": "Find answers to common questions about our AC repair, installation and maintenance services.",
+              "image": "/about/faq.webp",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "How often should I service my AC?",
+                  "answer": "It is recommended to service your AC at least twice a year, preferably before the summer season and after heavy usage, to ensure optimal performance and longer life."
+                },
+                {
+                  "id": "q2",
+                  "question": "What types of AC units do you repair?",
+                  "answer": "We repair all types of AC units including split, window, and central air conditioning systems from major brands."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide AC installation services?",
+                  "answer": "Yes, we provide professional installation services for all kinds of AC units."
+                },
+                {
+                  "id": "q4",
+                  "question": "How long does an AC repair usually take?",
+                  "answer": "Most repairs are completed within a few hours depending on the complexity of the issue."
+                },
+                {
+                  "id": "q5",
+                  "question": "Is there a warranty on your repair services?",
+                  "answer": "Yes, we provide a 30-day warranty on all our repair services and parts."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "HVACTopBar1",
+          "Header": "HVACHeader1",
+          "Footer": "HVACFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "HVACHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "HVACAboutUs1"
+              },
+              {
+                "key": "Services",
+                "component": "HVACServices1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "HVACTestimonials1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "HVACAboutUs1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Services",
+                "component": "HVACServices1"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Gallery",
+                "component": "HVACGallery1"
+              },
+              {
+                "key": "VideoGallery",
+                "component": "HVACVideoGallery1"
+              }
+            ]
+          },
+          "faq": {
+            "components": [
+              {
+                "key": "Faq",
+                "component": "HVACFaq1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "HVACContact1"
+              }
+            ]
+          },
+          "quote": {
+            "components": [
+              {
+                "key": "Quote",
+                "component": "HVACQuote1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "HVACTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "HVACHeader1"
+        },
+        {
+          "key": "Hero",
+          "component": "HVACHero1"
+        },
+        {
+          "key": "AboutUs",
+          "component": "HVACAboutUs1"
+        },
+        {
+          "key": "Services",
+          "component": "HVACServices1"
+        },
+        {
+          "key": "Testimonials",
+          "component": "HVACTestimonials1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "about": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "HVACTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "HVACHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "AboutUs",
+          "component": "HVACAboutUs1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "blog": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "HVACTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "HVACHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Blogs",
+          "component": "HVACBlogs1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "services": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "HVACTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "HVACHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Services",
+          "component": "HVACServices1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "service_detail": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "HVACTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "HVACHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "ServiceDetail",
+          "component": "HVACServiceDetail1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    },
+    "contact": {
+      "components": [
+        {
+          "key": "TopBar",
+          "component": "HVACTopBar1"
+        },
+        {
+          "key": "Header",
+          "component": "HVACHeader1"
+        },
+        {
+          "key": "Breadcrumb",
+          "component": "Breadcrumb"
+        },
+        {
+          "key": "Contact",
+          "component": "HVACContact1"
+        },
+        {
+          "key": "Footer",
+          "component": "Footer"
+        }
+      ]
+    }
+  }
+}

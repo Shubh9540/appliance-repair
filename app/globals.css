@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Colors — AviCare Design */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-alt: #f0f7ff;
+  --color-primary: #051c4a;
+  --color-accent: #007bff;
+  --color-accent-light: #66b0ff;
+  --color-text: #1a202c;
+  --color-text-light: #4a5568;
+  --color-border: #e2e8f0;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}
