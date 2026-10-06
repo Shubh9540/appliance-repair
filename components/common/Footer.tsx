@@ -56,7 +56,7 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                   <Link 
                     key={social.id} 
                     href={social.url} 
-                    className="w-8 h-8 rounded-full bg-[#0a356e] flex items-center justify-center text-[var(--color-accent)] hover:bg-[var(--color-accent)] hover:text-white transition-all shadow-md text-xs"
+                    className="w-8 h-8 rounded-full bg-[#0a356e] flex items-center justify-center text-white hover:bg-[var(--color-accent)] hover:text-white transition-all shadow-md text-xs"
                   >
                     {renderSocialIcon(social.icon)}
                   </Link>

@@ -406,8 +406,8 @@
                 }
               ],
               "button": {
-                "text": "Contact Us",
-                "url": "/contact"
+                "text": "Read More",
+                "url": "/about"
               },
               "imageMain": "/about/about.webp"
             }
@@ -581,39 +581,39 @@
                 "servicesList": [
                   {
                     "id": "s1",
-                    "title": "Heater Installation",
+                    "title": "AC Installation",
                     "image": "/service/1.webp",
-                    "url": "/services/HVAC & AC-installation"
+                    "url": "/services/ac-installation"
                   },
                   {
                     "id": "s2",
-                    "title": "Heater Repair",
+                    "title": "AC Repair",
                     "image": "/service/2.webp",
-                    "url": "/services/general-repair"
+                    "url": "/services/ac-repair"
                   },
                   {
                     "id": "s3",
-                    "title": "Heater Maintenance",
+                    "title": "AC Cleaning",
                     "image": "/service/3.webp",
-                    "url": "/services/leak-detection"
+                    "url": "/services/ac-cleaning"
                   },
                   {
                     "id": "s4",
-                    "title": "Heater Cleaning",
+                    "title": "AC Maintenance",
                     "image": "/service/4.webp",
-                    "url": "/services/pipe-drain-cleaning"
+                    "url": "/services/ac-maintenance"
                   },
                   {
                     "id": "s5",
-                    "title": "Heating System Solutions",
+                    "title": "Heating Services",
                     "image": "/service/5.webp",
-                    "url": "/services/water-heater"
+                    "url": "/services/heating-services"
                   },
                   {
                     "id": "s6",
-                    "title": "Annual Inspections",
+                    "title": "HVAC Solutions",
                     "image": "/service/6.webp",
-                    "url": "/services/bathroom-fixture"
+                    "url": "/services/hvac-solutions"
                   }
                 ],
                 "helpBox": {
@@ -736,41 +736,44 @@
                     "Emergency HVAC"
                   ]
                 },
-                "servicesList": {
-                  "title": "Our Services",
-                  "services": [
-                    {
-                      "id": "s1",
-                      "label": "HVAC Installation",
-                      "url": "/services/HVAC & AC-installation"
-                    },
-                    {
-                      "id": "s2",
-                      "label": "Leak Detection Services",
-                      "url": "/services/leak-detection"
-                    },
-                    {
-                      "id": "s3",
-                      "label": "Pipe & Drain Cleaning",
-                      "url": "/services/pipe-drain-cleaning"
-                    },
-                    {
-                      "id": "s4",
-                      "label": "General HVAC Repair",
-                      "url": "/services/general-repair"
-                    },
-                    {
-                      "id": "s5",
-                      "label": "Water Heater Services",
-                      "url": "/services/water-heater"
-                    },
-                    {
-                      "id": "s6",
-                      "label": "Bathroom Fixture Installation",
-                      "url": "/services/bathroom-fixture"
-                    }
-                  ]
-                }
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "AC Installation",
+                    "image": "/service/1.webp",
+                    "url": "/services/ac-installation"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "AC Repair",
+                    "image": "/service/2.webp",
+                    "url": "/services/ac-repair"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "AC Cleaning",
+                    "image": "/service/3.webp",
+                    "url": "/services/ac-cleaning"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "AC Maintenance",
+                    "image": "/service/4.webp",
+                    "url": "/services/ac-maintenance"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Heating Services",
+                    "image": "/service/5.webp",
+                    "url": "/services/heating-services"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "HVAC Solutions",
+                    "image": "/service/6.webp",
+                    "url": "/services/hvac-solutions"
+                  }
+                ]
               }
             },
             "pipe-drain-cleaning": {
@@ -872,41 +875,44 @@
                     "Emergency HVAC"
                   ]
                 },
-                "servicesList": {
-                  "title": "Our Services",
-                  "services": [
-                    {
-                      "id": "s1",
-                      "label": "HVAC Installation",
-                      "url": "/services/HVAC & AC-installation"
-                    },
-                    {
-                      "id": "s2",
-                      "label": "Leak Detection Services",
-                      "url": "/services/leak-detection"
-                    },
-                    {
-                      "id": "s3",
-                      "label": "Pipe & Drain Cleaning",
-                      "url": "/services/pipe-drain-cleaning"
-                    },
-                    {
-                      "id": "s4",
-                      "label": "General HVAC Repair",
-                      "url": "/services/general-repair"
-                    },
-                    {
-                      "id": "s5",
-                      "label": "Water Heater Services",
-                      "url": "/services/water-heater"
-                    },
-                    {
-                      "id": "s6",
-                      "label": "Bathroom Fixture Installation",
-                      "url": "/services/bathroom-fixture"
-                    }
-                  ]
-                }
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "AC Installation",
+                    "image": "/service/1.webp",
+                    "url": "/services/ac-installation"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "AC Repair",
+                    "image": "/service/2.webp",
+                    "url": "/services/ac-repair"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "AC Cleaning",
+                    "image": "/service/3.webp",
+                    "url": "/services/ac-cleaning"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "AC Maintenance",
+                    "image": "/service/4.webp",
+                    "url": "/services/ac-maintenance"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Heating Services",
+                    "image": "/service/5.webp",
+                    "url": "/services/heating-services"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "HVAC Solutions",
+                    "image": "/service/6.webp",
+                    "url": "/services/hvac-solutions"
+                  }
+                ]
               }
             },
             "general-repair": {
@@ -1008,41 +1014,44 @@
                     "Emergency HVAC"
                   ]
                 },
-                "servicesList": {
-                  "title": "Our Services",
-                  "services": [
-                    {
-                      "id": "s1",
-                      "label": "HVAC Installation",
-                      "url": "/services/HVAC & AC-installation"
-                    },
-                    {
-                      "id": "s2",
-                      "label": "Leak Detection Services",
-                      "url": "/services/leak-detection"
-                    },
-                    {
-                      "id": "s3",
-                      "label": "Pipe & Drain Cleaning",
-                      "url": "/services/pipe-drain-cleaning"
-                    },
-                    {
-                      "id": "s4",
-                      "label": "General HVAC Repair",
-                      "url": "/services/general-repair"
-                    },
-                    {
-                      "id": "s5",
-                      "label": "Water Heater Services",
-                      "url": "/services/water-heater"
-                    },
-                    {
-                      "id": "s6",
-                      "label": "Bathroom Fixture Installation",
-                      "url": "/services/bathroom-fixture"
-                    }
-                  ]
-                }
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "AC Installation",
+                    "image": "/service/1.webp",
+                    "url": "/services/ac-installation"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "AC Repair",
+                    "image": "/service/2.webp",
+                    "url": "/services/ac-repair"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "AC Cleaning",
+                    "image": "/service/3.webp",
+                    "url": "/services/ac-cleaning"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "AC Maintenance",
+                    "image": "/service/4.webp",
+                    "url": "/services/ac-maintenance"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Heating Services",
+                    "image": "/service/5.webp",
+                    "url": "/services/heating-services"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "HVAC Solutions",
+                    "image": "/service/6.webp",
+                    "url": "/services/hvac-solutions"
+                  }
+                ]
               }
             },
             "water-heater": {
@@ -1144,41 +1153,44 @@
                     "Emergency HVAC"
                   ]
                 },
-                "servicesList": {
-                  "title": "Our Services",
-                  "services": [
-                    {
-                      "id": "s1",
-                      "label": "HVAC Installation",
-                      "url": "/services/HVAC & AC-installation"
-                    },
-                    {
-                      "id": "s2",
-                      "label": "Leak Detection Services",
-                      "url": "/services/leak-detection"
-                    },
-                    {
-                      "id": "s3",
-                      "label": "Pipe & Drain Cleaning",
-                      "url": "/services/pipe-drain-cleaning"
-                    },
-                    {
-                      "id": "s4",
-                      "label": "General HVAC Repair",
-                      "url": "/services/general-repair"
-                    },
-                    {
-                      "id": "s5",
-                      "label": "Water Heater Services",
-                      "url": "/services/water-heater"
-                    },
-                    {
-                      "id": "s6",
-                      "label": "Bathroom Fixture Installation",
-                      "url": "/services/bathroom-fixture"
-                    }
-                  ]
-                }
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "AC Installation",
+                    "image": "/service/1.webp",
+                    "url": "/services/ac-installation"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "AC Repair",
+                    "image": "/service/2.webp",
+                    "url": "/services/ac-repair"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "AC Cleaning",
+                    "image": "/service/3.webp",
+                    "url": "/services/ac-cleaning"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "AC Maintenance",
+                    "image": "/service/4.webp",
+                    "url": "/services/ac-maintenance"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Heating Services",
+                    "image": "/service/5.webp",
+                    "url": "/services/heating-services"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "HVAC Solutions",
+                    "image": "/service/6.webp",
+                    "url": "/services/hvac-solutions"
+                  }
+                ]
               }
             },
             "bathroom-fixture": {
@@ -1280,41 +1292,44 @@
                     "Emergency HVAC"
                   ]
                 },
-                "servicesList": {
-                  "title": "Our Services",
-                  "services": [
-                    {
-                      "id": "s1",
-                      "label": "HVAC Installation",
-                      "url": "/services/HVAC & AC-installation"
-                    },
-                    {
-                      "id": "s2",
-                      "label": "Leak Detection Services",
-                      "url": "/services/leak-detection"
-                    },
-                    {
-                      "id": "s3",
-                      "label": "Pipe & Drain Cleaning",
-                      "url": "/services/pipe-drain-cleaning"
-                    },
-                    {
-                      "id": "s4",
-                      "label": "General HVAC Repair",
-                      "url": "/services/general-repair"
-                    },
-                    {
-                      "id": "s5",
-                      "label": "Water Heater Services",
-                      "url": "/services/water-heater"
-                    },
-                    {
-                      "id": "s6",
-                      "label": "Bathroom Fixture Installation",
-                      "url": "/services/bathroom-fixture"
-                    }
-                  ]
-                }
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "AC Installation",
+                    "image": "/service/1.webp",
+                    "url": "/services/ac-installation"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "AC Repair",
+                    "image": "/service/2.webp",
+                    "url": "/services/ac-repair"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "AC Cleaning",
+                    "image": "/service/3.webp",
+                    "url": "/services/ac-cleaning"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "AC Maintenance",
+                    "image": "/service/4.webp",
+                    "url": "/services/ac-maintenance"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Heating Services",
+                    "image": "/service/5.webp",
+                    "url": "/services/heating-services"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "HVAC Solutions",
+                    "image": "/service/6.webp",
+                    "url": "/services/hvac-solutions"
+                  }
+                ]
               }
             }
           }
@@ -2557,32 +2572,32 @@
                   "name": "Daniel Brooks",
                   "role": "HVAC Specialist",
                   "image": "/team/1.jpg",
-                  "phone": "#",
-                  "linkedin": "#"
+                  "phone": "tel:+1000000000",
+                  "linkedin": "https://linkedin.com/"
                 },
                 {
                   "id": "m2",
                   "name": "Marcus Reed",
                   "role": "Appliance Technician",
                   "image": "/team/2.jpg",
-                  "phone": "#",
-                  "linkedin": "#"
+                  "phone": "tel:+1000000000",
+                  "linkedin": "https://linkedin.com/"
                 },
                 {
                   "id": "m3",
                   "name": "Ethan Cole",
                   "role": "Senior Service Engineer",
                   "image": "/team/3.jpg",
-                  "phone": "#",
-                  "linkedin": "#"
+                  "phone": "tel:+1000000000",
+                  "linkedin": "https://linkedin.com/"
                 },
                 {
                   "id": "m4",
                   "name": "James Carter",
                   "role": "Maintenance Expert",
                   "image": "/team/4.jpg",
-                  "phone": "#",
-                  "linkedin": "#"
+                  "phone": "tel:+1000000000",
+                  "linkedin": "https://linkedin.com/"
                 }
               ]
             }
